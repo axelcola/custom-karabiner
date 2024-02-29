@@ -1,0 +1,29 @@
+{
+  "title": "delete whit mandatory option command ",
+  "rules": [
+    {
+      "description": "delete whit mandatory option command",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "o",
+            "modifiers": {
+              "mandatory": ["left_option"],
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "delete_or_backspace",
+              "modifiers": {
+                "mandatory": ["option"],
+                "optional": ["any"]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

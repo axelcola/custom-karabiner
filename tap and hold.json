@@ -1,0 +1,42 @@
+{
+  "title": "tap and Hold",
+  "rules": [
+    {
+      "description": "tab tap and Hold",
+      "manipulators": [
+        {
+            "from": {
+                "key_code": "tab"
+            },
+            "to_after_key_up": [
+                {
+                    "key_code": "tab"
+                    }                       
+            ],
+          "to_if_held_down": [
+            {
+                "key_code": "fn"
+            }   
+          ],
+          "type": "basic" 
+        },
+        {
+            "from": {
+                "key_code": "j",
+                "modifiers": {
+                    "mandatory": [
+                        "fn"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "left_arrow"
+                }
+            ],
+            "type": "basic"
+        }
+      ]
+    }
+  ]
+}
