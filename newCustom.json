@@ -372,6 +372,41 @@
           ]
         }
       ]
+    },
+    {
+      "description": "back/forward for visual studio code",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "u",
+            "modifiers": {
+              "mandatory": ["fn"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "hyphen",
+              "modifiers": ["left_control"]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "o",
+            "modifiers": {
+              "mandatory": ["fn"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "hyphen",
+              "modifiers": ["left_control", "left_shift"]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
     }
   ]
 }
