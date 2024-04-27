@@ -228,21 +228,6 @@
         },
         {
           "from": {
-            "key_code": "h",
-            "modifiers": {
-              "optional": ["any"],
-              "mandatory": ["fn"]
-            }
-          },
-          "to": [
-            {
-              "key_code": "return_or_enter"
-            }
-          ],
-          "type": "basic"
-        },
-        {
-          "from": {
             "key_code": "r",
             "modifiers": {
               "optional": ["any"],
