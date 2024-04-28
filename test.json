@@ -374,7 +374,7 @@
       ]
     },
     {
-      "description": "Double tap arrow up",
+      "description": "double tap HK + i/k for 10times ip/down",
       "manipulators": [
         {
           "type": "basic",
@@ -458,12 +458,7 @@
               }
             ]
           }
-        }
-      ]
-    },
-    {
-      "description": "Double tap arrow down",
-      "manipulators": [
+        },
         {
           "type": "basic",
           "from": {
