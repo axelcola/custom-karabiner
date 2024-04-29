@@ -1,8 +1,8 @@
 {
-  "title": "jkli alones",
+  "title": "jkli with modifiers [Opt, Cmd] without Hyperkey",
   "rules": [
     {
-      "description": "jkli alones",
+      "description": "jkli with modifiers [Opt, Cmd] without Hyperkey",
       "manipulators": [
         {
           "from": {
