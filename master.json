@@ -167,7 +167,7 @@
             "to_after_key_up": [
               {
                 "set_variable": {
-                  "name": "UpPressed",
+                  "name": "DownPressed",
                   "value": 0
                 }
               }
@@ -175,7 +175,7 @@
             "conditions": [
               {
                 "type": "variable_if",
-                "name": "UpPressed",
+                "name": "DownPressed",
                 "value": 1
               }
             ]
@@ -194,7 +194,7 @@
               },
               {
                 "set_variable": {
-                  "name": "UpPressed",
+                  "name": "DownPressed",
                   "value": 1
                 }
               }
@@ -206,7 +206,7 @@
               "to_if_invoked": [
                 {
                   "set_variable": {
-                    "name": "UpPressed",
+                    "name": "DownPressed",
                     "value": 0
                   }
                 }
