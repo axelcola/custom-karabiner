@@ -36,8 +36,6 @@
               "to_if_alone": [
                 {
                   "key_code": "return_or_enter"
-                }
-              ]
             }
           ]
     },
@@ -568,11 +566,11 @@
       ]
     },
     {
-      "description": "'v' w hyper as delete line",
+      "description": "'x' w hyper as delete line",
       "manipulators": [
         {
           "from": {
-            "key_code": "v",
+            "key_code": "x",
             "modifiers": {
               "optional": ["any"],
               "mandatory": ["fn"]

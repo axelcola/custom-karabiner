@@ -19,5 +19,5 @@ jkli & Spacebar as arrows with Hyperkey:
 Hyperkey = u/o as back/forward for Visual Studio Code:
                 u/o with Hyperkey as back/forward for VS Code 
 
-'v' w hyper as delete line
+'x' w hyper as delete line
 
