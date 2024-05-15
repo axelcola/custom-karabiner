@@ -36,6 +36,8 @@
               "to_if_alone": [
                 {
                   "key_code": "return_or_enter"
+                }
+              ]
             }
           ]
     },
