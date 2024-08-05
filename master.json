@@ -591,6 +591,27 @@
             "type": "basic"
           }
         ]
+      },  
+      {
+        "description": "toggle red filter",
+        "manipulators": [
+          {
+            "from": {
+              "key_code": "a",
+              "modifiers": {
+                "optional": ["any"],
+                "mandatory": ["fn"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "8",
+                "modifiers": "left_command"
+              }
+            ],
+            "type": "basic"
+          }
+        ]
       }
     ]
   }

@@ -1,0 +1,42 @@
+{
+    "title": "Test",
+    "rules": [{
+    "description": "capslock tap&hold as enter/hyperkey",
+    "manipulators": [
+      {
+        "type": "basic",
+        "from": {
+          "key_code": "i",
+          "modifiers": {
+            "mandatory": ["tab"]
+          }
+        },
+        "to": [
+          {
+              "key_code": "up_arrow"
+          },
+          {
+              "key_code": "up_arrow"
+          },
+          {
+              "key_code": "up_arrow"
+          },
+          {
+              "key_code": "up_arrow"
+          },
+          {
+              "key_code": "up_arrow"
+          },
+          {
+              "key_code": "up_arrow"
+          },
+          {
+              "key_code": "up_arrow"
+          },
+          {
+              "key_code": "up_arrow"
+          }
+      ]
+      }
+    ]
+}]}
